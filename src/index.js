@@ -5,6 +5,7 @@ import App from "./components/App";
 import Login from "./components/Auth/Login";
 import Register from "./components/Auth/Register";
 import registerServiceWorker from "./registerServiceWorker";
+import Dashboard from "./components/Auth/Dashboard"
 
 import "semantic-ui-css/semantic.min.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -15,7 +16,7 @@ const Root = () => (
       <Route exact path="/" component={App} />
       <Route path="/login" component={Login} />
       <Route path="/register" component={Register} />
-      <Route path="/dashboard" component={Dashboar}/>
+      <Route path="/dashboard" component={Dashboard}/>
     </Switch>
   </Router>
 );
