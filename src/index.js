@@ -15,6 +15,7 @@ const Root = () => (
       <Route exact path="/" component={App} />
       <Route path="/login" component={Login} />
       <Route path="/register" component={Register} />
+      <Route path="/dashboard" component={Dashboar}/>
     </Switch>
   </Router>
 );
